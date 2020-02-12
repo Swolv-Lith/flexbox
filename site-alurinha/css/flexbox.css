@@ -10,11 +10,14 @@
 }
 
 /* ~ Footer ~ */
-.rodapePrincipal-navMap .rodapePrincipal-navMap-list{
+.rodapePrincipal-navMap-list{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap; /* faz o mesmo que as duas linhas de cima */
+    height: 250px;
 }
+
 .rodapePrincipal-patrocinadores .container {
     display: flex;
     justify-content: space-between;
